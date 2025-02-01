@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(180deg, #e8f5c8 0%, #fff 96.87%);
+  padding: 2rem;
+}
+header nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+header nav .linha {
+  border-top: 1px solid #0c0421;
+  width: 80%;
+}
+header nav ul {
+  display: inline-flex;
+  gap: 2rem;
+}
+header nav li {
+  list-style-type: none;
+}
+header nav a {
+  text-decoration: none;
+  color: #0c0421;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+header #home {
+  max-width: 1440px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #home .textos-home {
+  max-width: 464px;
+}
+header #home .textos-home h1 {
+  font-family: "Krona one", sans-serif;
+  font-size: 42px;
+  color: #0c0421;
+  margin-bottom: 2rem;
+}
+header #home .textos-home h1 span {
+  color: #4e75ff;
+}
+header #home .textos-home .btn-main {
+  display: flex;
+  width: 280px;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  background: #4e75ff;
+  border-radius: 40px;
+  gap: 10px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  border: none;
+  line-height: 18px;
+  font-style: normal;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+header #home .img-home {
+  max-width: 474px;
+}
+header #home .img-home img {
+  width: 100%;
+}
+
+#nosso-espaco {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=styles.css.map */

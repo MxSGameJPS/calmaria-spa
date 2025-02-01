@@ -1,0 +1,82 @@
+@use "../abstrct/variaveis.scss";
+@use "../abstrct/_mixis.scss";
+
+header {
+  background: variaveis.$gradiente;
+  padding: 2rem;
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+
+    .linha {
+      border-top: 1px solid variaveis.$cor-primaria;
+      width: 80%;
+    }
+
+    ul {
+      display: inline-flex;
+      gap: 2rem;
+    }
+
+    li {
+      list-style-type: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: variaveis.$cor-primaria;
+      font-weight: 500;
+      font-family: variaveis.$texto;
+    }
+  }
+
+  #home {
+    max-width: 1440px;
+    @include mixis.margem-central(80%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .textos-home {
+      max-width: 464px;
+      h1 {
+        font-family: variaveis.$titulo;
+        font-size: 42px;
+        color: variaveis.$cor-primaria;
+        margin-bottom: 2rem;
+
+        span {
+          color: variaveis.$cor-secundaria;
+        }
+      }
+      .btn-main {
+        display: flex;
+        width: 280px;
+        padding: 24px;
+        justify-content: center;
+        align-items: center;
+        background: variaveis.$cor-secundaria;
+        border-radius: 40px;
+        gap: 10px;
+        color: #fff;
+        font-family: variaveis.$texto;
+        font-size: 22px;
+        font-weight: 600;
+        border: none;
+        line-height: 18px;
+        font-style: normal;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+    }
+    .img-home {
+      max-width: 474px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
