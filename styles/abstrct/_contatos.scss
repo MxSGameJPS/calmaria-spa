@@ -5,9 +5,18 @@
   @include mixis.margem-central(80%);
   padding: 3rem;
   display: flex;
+  justify-content: space-between;
   gap: 2rem;
 
+  .contatos-imgs {
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+  }
+
   .contatos-form {
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -62,25 +71,25 @@
       border: 1px solid #fff;
     }
     #mensagemContato {
-        display: flex;
-        padding: 16px;
-        height: 120px;
-        gap: 10px;
-        align-self: stretch;
-        border-radius: 32px;
-        border: 1px solid #fff;
-        align-items: flex-start;
+      display: flex;
+      padding: 16px;
+      height: 120px;
+      gap: 10px;
+      align-self: stretch;
+      border-radius: 32px;
+      border: 1px solid #fff;
+      align-items: flex-start;
     }
     .btn {
-        display: flex;
-        width: 487px;
-        padding: 24px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        background: variaveis.$cor-secundaria;
-        border-radius: 40px;
-        color: #fff;
+      display: flex;
+      width: 487px;
+      padding: 24px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      background: variaveis.$cor-secundaria;
+      border-radius: 40px;
+      color: #fff;
     }
   }
 }
