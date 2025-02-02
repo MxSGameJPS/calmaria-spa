@@ -7,5 +7,28 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
+    .detalhes {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 80px;
+    }
+
+    .detalhes2 {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;      
+    }
+    
+    .imgs-espaco {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;    
   }
+}
   

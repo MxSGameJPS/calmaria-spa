@@ -1,0 +1,16 @@
+@use "../abstrct/_mixis.scss";
+@use "../abstrct/variaveis.scss";
+
+footer {
+    background: variaveis.$gradiente;
+    padding: 2rem;
+    text-align: center;
+
+    small {
+        font-family: variaveis.$texto;
+        font-size: 15px;
+        color: variaveis.$cor-primaria;
+        font-weight: 400;
+        text-align: center;
+    }
+}

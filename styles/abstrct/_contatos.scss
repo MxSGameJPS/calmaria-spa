@@ -1,0 +1,86 @@
+@use "../abstrct/_mixis.scss";
+@use "../abstrct/variaveis.scss";
+
+#contatos {
+  @include mixis.margem-central(80%);
+  padding: 3rem;
+  display: flex;
+  gap: 2rem;
+
+  .contatos-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    padding: 32px 48px;
+    background: variaveis.$gradiente;
+    border-radius: 48px;
+    border: 1px solid #fff;
+    backdrop-filter: blur(8px);
+    width: 583px;
+
+    .titulo {
+      font-family: variaveis.$titulo;
+      font-size: 26px;
+      color: variaveis.$cor-secundaria;
+      text-align: center;
+      font-weight: 400;
+      font-style: normal;
+      margin: 0;
+    }
+    .infos {
+      font-family: variaveis.$texto;
+      font-size: 20px;
+      color: variaveis.$cor-primaria;
+      margin: 0;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .inputs {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      align-items: flex-start;
+      align-self: stretch;
+    }
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      width: 100%;
+    }
+    #nomeContato,
+    #emailContato,
+    #telefoneContato {
+      display: flex;
+      padding: 16px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      align-self: stretch;
+      border-radius: 32px;
+      border: 1px solid #fff;
+    }
+    #mensagemContato {
+        display: flex;
+        padding: 16px;
+        height: 120px;
+        gap: 10px;
+        align-self: stretch;
+        border-radius: 32px;
+        border: 1px solid #fff;
+        align-items: flex-start;
+    }
+    .btn {
+        display: flex;
+        width: 487px;
+        padding: 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background: variaveis.$cor-secundaria;
+        border-radius: 40px;
+        color: #fff;
+    }
+  }
+}

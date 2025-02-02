@@ -84,4 +84,203 @@ header #home .img-home img {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+#nosso-espaco .detalhes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 80px;
+}
+#nosso-espaco .detalhes2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+#nosso-espaco .imgs-espaco {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+#servico {
+  margin-top: 80px;
+  padding: 2rem;
+  background: linear-gradient(180deg, #e8f5c8 0%, #fff 96.87%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+#servico .cards {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+#servico .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(202, 212, 250, 0.3) 100%);
+  border-radius: 2rem;
+  border: 2px solid #fff;
+  padding: 1.5rem 1rem;
+  flex: 1 0 0;
+}
+
+#desconto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  align-self: stretch;
+  margin-bottom: 4rem;
+}
+#desconto .desconto-form {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+  font-size: 18px;
+  cursor: pointer;
+  gap: 16px;
+  color: #0c0421;
+}
+#desconto .desconto-form h4 {
+  margin-bottom: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #0c0421;
+}
+#desconto .input-btn {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+#desconto .input-btn input {
+  width: 310px;
+  height: 2rem;
+  border-radius: 32px 0px 0px 32px;
+  border: 1px solid #4e75ff;
+}
+#desconto .input-btn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 2rem;
+  padding: 16px 24px;
+  border-radius: 0px 32px 32px 0px;
+  gap: 10px;
+  background: #4e75ff;
+  color: #fff;
+}
+
+#contatos {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3rem;
+  display: flex;
+  gap: 2rem;
+}
+#contatos .contatos-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  padding: 32px 48px;
+  background: linear-gradient(180deg, #e8f5c8 0%, #fff 96.87%);
+  border-radius: 48px;
+  border: 1px solid #fff;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  width: 583px;
+}
+#contatos .contatos-form .titulo {
+  font-family: "Krona one", sans-serif;
+  font-size: 26px;
+  color: #4e75ff;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+#contatos .contatos-form .infos {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #0c0421;
+  margin: 0;
+  font-weight: 400;
+  font-style: normal;
+}
+#contatos .contatos-form .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  align-self: stretch;
+}
+#contatos .contatos-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+#contatos .contatos-form #nomeContato,
+#contatos .contatos-form #emailContato,
+#contatos .contatos-form #telefoneContato {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 32px;
+  border: 1px solid #fff;
+}
+#contatos .contatos-form #mensagemContato {
+  display: flex;
+  padding: 16px;
+  height: 120px;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 32px;
+  border: 1px solid #fff;
+  align-items: flex-start;
+}
+#contatos .contatos-form .btn {
+  display: flex;
+  width: 487px;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #4e75ff;
+  border-radius: 40px;
+  color: #fff;
+}
+
+footer {
+  background: linear-gradient(180deg, #e8f5c8 0%, #fff 96.87%);
+  padding: 2rem;
+  text-align: center;
+}
+footer small {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #0c0421;
+  font-weight: 400;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
